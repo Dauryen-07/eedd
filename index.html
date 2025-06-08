@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can We Start Again?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Heart Background -->
+    <div id="hearts-container"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>A year ago, you walked away.</h1>
+        <p>And not a day has passed without me thinking about what we had.</p>
+        <p>Today, I want to ask something from the heart:<br><strong>Can we start again?</strong></p>
+        <div class="btn-group">
+            <a href="yes.html" class="btn">Yes</a>
+            <button class="btn no-btn" id="noBtn">No</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script>
+        const heartContainer = document.getElementById('hearts-container');
+        for (let i = 0; i < 30; i++) {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            heart.style.left = Math.random() * 100 + "vw";
+            heart.style.animationDuration = (5 + Math.random() * 5) + "s";
+            heartContainer.appendChild(heart);
+        }
+    </script>
+</body>
+</html>
