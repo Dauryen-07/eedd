@@ -1,5 +1,5 @@
 function moveButton() {
-    const noButton = document.getElementById('noButton');
+    const noButton = document.getElementById('noBtn');
     const container = document.querySelector('.container');
 
     noButton.style.transition = 'all 0.3s ease-out';
@@ -34,7 +34,7 @@ function nextPage() {
 }
 
 window.addEventListener('load', () => {
-    const noButton = document.getElementById('noButton');
+    const noButton = document.getElementById('noBtn');
     const yesButton = document.getElementById('yesButton');
 
     if (noButton) {
