@@ -4,41 +4,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
-    background-color: #2d1b5e; 
+    height: 100vh;
+    background-color: #16213e;
     font-family: 'Indie Flower', cursive;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .container {
     text-align: center;
-    background-color: #ffebee; 
+    background-color: rgba(255, 255, 255, 0.06);
     padding: 40px;
     border-radius: 20px;
-    border: 3px solid #ff6b81; 
-    box-shadow: 0 8px 20px rgba(255, 107, 129, 0.3); 
-    max-width: 600px; 
-    width: 90%; 
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    width: 90%;
 }
 
 .header_text {
     font-size: 30px;
     font-weight: bold;
-    color:#e8d5f5; 
+    color: #e8d5f5;
     margin: 20px 0;
-    text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .gif_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    max-width: 300px;
 }
 
 .gif_container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; 
+    width: 100%;
+    border-radius: 12px;
 }
 
+p {
+    color: #c9b8e8;
+    font-size: 18px;
+    line-height: 1.6;
+}
