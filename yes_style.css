@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    background-color: #fff5f5; 
+    background-color: #2d1b5e; 
     font-family: 'Indie Flower', cursive;
     overflow: hidden; 
 }
@@ -22,9 +22,9 @@ body {
 }
 
 .header_text {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
-    color: #ff6b81; 
+    color:#e8d5f5; 
     margin: 20px 0;
     text-shadow: 2px 2px 4px rgba(255, 107, 129, 0.2); 
 }
